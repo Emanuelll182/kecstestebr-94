@@ -10,7 +10,7 @@ import AuthPageRoute from "./pages/AuthPage";
 import ProductsPage from "./pages/ProductsPage";
 import ProductDetailPage from "./pages/ProductDetailPage";
 import AdminPage from "./pages/AdminPage";
-import { AuthProvider } from "@/contexts/AuthContext"; // 🔥 import novo
+import { AuthProvider } from "@/components/AuthContext"; // 🔥 import novo
 
 const queryClient = new QueryClient({
   defaultOptions: {
