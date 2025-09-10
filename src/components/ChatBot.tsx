@@ -79,7 +79,7 @@ const ChatBot = () => {
 
     try {
       // Chame seu webhook do n8n
-      const response = await fetch('https://webhook.kecs.com.br/webhook/chat-botkec', {
+      const response = await fetch('https://webhook.kecinfor.com.br/webhook/chat-botkec', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: userMessage.text }),
